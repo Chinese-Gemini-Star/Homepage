@@ -1,0 +1,166 @@
+html {
+    height: -webkit-fill-available;
+}
+
+body{
+    background: url("../img/bg.jpg") no-repeat center center fixed;
+    width: 100vw;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/*
+ * 隐藏滚动条
+ */
+::-webkit-scrollbar {
+    display: none
+}
+
+/*
+ * 初始居中方块
+ */
+#start {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    position: fixed;
+}
+
+.background {
+    background: url("../img/start_bg.jpg") center center fixed;
+    -o-background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#start img {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+
+#start #left_corner {
+    /* 高度的一半 */
+    margin-top: -50px;
+    /* 宽度的一半 */
+    margin-left: -50px;
+    top: 50%;
+    left: 50%;
+}
+
+#start #right_corner {
+    bottom: calc(50% - 50px);
+    right: calc(50% - 50px);
+}
+
+/*
+ * 切换按钮
+ */
+#controlButton {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    height: 8%;
+}
+#controlButton > img {
+    height: 100%;
+}
+
+/*
+ * 切换提示信息
+ */
+.alert {
+    position: absolute;
+    bottom: 1%;
+    height: 6%;
+}
+
+/*
+ * 控制页面
+ */
+#controlFrame {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #80808085;
+}
+
+.btn {
+    font-size: 2vmax;
+    width: 15vmax;
+    margin-bottom: 3vh;
+    color: white;
+}
+
+/*
+ * 主界面
+ */
+#main {
+    padding: 0;
+    margin: 0;
+    width: 86vw;
+    height: 86%;
+    background: #3ebbf985;
+    overflow: auto;
+}
+
+/*
+ * 元素样式
+ */
+section {
+    margin-top: 30px;
+}
+
+p {
+    text-shadow: 0 0 #98baf8;
+    font-size: 2vmax;
+    font-weight: 700;
+    line-height: 6vh;
+}
+
+h1 {
+    color: #004080;
+    font-weight: 700;
+    font-size: 3vmax;
+}
+
+h2 {
+    color: #004080;
+    font-weight: 700;
+    font-size: 2vmax;
+    margin-bottom: 3%;
+}
+
+/*
+ * 提示框
+ */
+.alert {
+    width: 100vw;
+    z-index: 9999;
+    position: fixed;
+}
+
+/*
+ * 备案悬挂
+ */
+#record {
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}

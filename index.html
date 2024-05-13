@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="zh-cn" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="zh-cn" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="zh-cn" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html lang="zh-cn" class="no-js"> <![endif]-->
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>星光个人开发测试</title>
+    <meta name="description" content="星·双子 个人网站">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- 网页logo -->
+    <link rel="icon" type="image/png" sizes="144x144" href="img/icon.png">
+    <link rel="shortcut" type="image/png" sizes="144x144" href="img/icon.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="img/icon.png">
+
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex justify-content-center align-items-center">
+    <!-- 开始动画,显示在较上面 -->
+    <div id="start">
+        <div class="background"></div>
+        <img id="left_corner" src="img/top left corner.png">
+        <img id="right_corner" src="img/lower right corner.png">
+    </div>
+
+    <!-- 界面主体 -->
+    <article id="main" class="d-flex justify-content-center align-items-center" style="display:none !important">
+        <!-- 个人介绍 -->
+        <section id="introduction" class="container-fluid text-center align-self-start "
+            style="display:none !important">
+            <h1 class="text-start ms-lg-5 mb-lg-3 p-lg-4">
+                唯有在黑暗中挣扎而觉醒的星光,
+            </h1>
+            <h1 class="text-end me-lg-5 mb-lg-3">
+                才是夜空中最亮的光芒!
+            </h1>
+            <p class="mt-lg-5 pt-lg-3" style="white-space:pre-line">我是一个很普通的编程爱好者
+                入坑的第一门语言是Java,那时候还是小学刚刚毕业,学了很久才勉强掌握
+                陆续学习了Python,前端三件套,C/C++,Golang,C#等编程语言,但是学的多又没啥大用
+                第一个小项目是初中的时候参加创客比赛时写的服务器,但是寄了
+                第一个成功完成的项目是高中的时候在校Papper社参加比赛时写的前端
+                第一个全栈都是自己写的项目是大学C++的课设,一个使用Qt框架的CRUD项目
+                主要在学习后端开发,在向云原生方向靠拢.同时也有在学习桌面应用开发和前端开发
+                作为ACM集训队成员也在学习竞赛用的算法和数据结构,但是非常菜全靠队友
+            </p>
+        </section>
+        <!-- 个人奖项 -->
+        <section id="awards" class="container-fluid text-center" style="display:none !important">
+            <h1 class="text-black mb-5">个人奖项</h1>
+            <h2>2023力扣杯春季编程大赛团队第193名</h2>
+            <h2>2023年团队程序设计天梯赛团队省二国二、个人国三</h2>
+            <h2>第十四届蓝桥杯软件类Java软件开发大学B组省一国一</h2>
+            <h2>第48届ICPC国际大学生程序设计竞赛亚洲区域赛(济南)铜牌</h2>
+            <h2>第十五届蓝桥杯软件类C/C++软件开发大学B组省二<del class="small text-black">没错还倒退了</del></h2>
+            <h2 class="text-danger">没错就这么点</h2>
+        </section>
+        <!-- 个人项目 -->
+        <section id="servers" class="container-fluid d-flex align-items-center flex-column"
+            style="display:none !important">
+            <h1 class="text-black mb-5">个人项目(部署在本站中的一些)</h1>
+            <div>
+                <h2><a href="https://www.zstuca.club">zstuca</a>: 浙理工计协官网及其附属服务</h2>
+                <h2><a href="https://random.geministar.site">random</a>: 一个随机数生成器</h2>
+                <h2><a href="https://huffman.geministar.site">huffman</a>: 一个较完整的霍夫曼编码生成器</h2>
+            </div>
+        </section>
+        <!-- 其他主页 -->
+        <section id="others" class="container-fluid d-flex flex-column align-items-center"
+            style="display:none !important">
+            <h1 class="text-black mb-5">其他主页</h1>
+            <div>
+                <h2>博客主页:<a href="https://www.cnblogs.com/geministar" class="link"
+                        target="_blank">https://www.cnblogs.com/geministar</a>目前主要发布一些竞赛算法题的题解.
+                </h2>
+                <h2>力扣主页:<a href="https://leetcode.cn/u/gemini-star/" class="link"
+                        target="_blank">https://leetcode.cn/u/gemini-star/</a>偶尔会做做上面的题.
+                </h2>
+                <h2>GitHub主页:<a href="https://github.com/Chinese-Gemini-Star" class="link"
+                        target="_blank">https://github.com/Chinese-Gemini-Star</a></h2>
+                <h2>codeforces主页:<a href="https://codeforces.com/profile/GeminiStar" class="link"
+                        target="_blank">https://codeforces.com/profile/GeminiStar</a>深夜打算法竞赛的痛.</h2>
+                <h2>洛谷主页:<a href="https://www.luogu.com.cn/user/804335" class="link"
+                        target="_blank">https://www.luogu.com.cn/user/804335</a>不常在此平台做题.</h2>
+                <h2>Vjudge主页:<a href="https://vjudge.net/user/GeminiStar" class="link"
+                        target="_blank">https://vjudge.net/user/GeminiStar</a>用来统一做各种OJ上的题目.</h2>
+            </div>
+        </section>
+        <!-- 自学站点推荐 -->
+        <section id="learningMaterials" class="container-fluid d-flex flex-column align-items-center"
+            style="display:none !important">
+            <h1 class="text-black mb-5">自学站点推荐</h1>
+            <div>
+                <h2><a href="http://c.biancheng.net/" class="link" target="_blank">C语言中文网</a>:大量开发技术教程,虽然有些不是很好.</h2>
+                <h2><a href="https://www.runoob.com/" class="link" target="_blank">菜鸟教程</a>:覆盖面极广的开发技术教程,虽然有多教程点到为止.
+                </h2>
+                <h2><a href="https://www.bookstack.cn/" class="link" target="_blank">书栈网</a>:能找到大量的开源电子书以及汉化官方文档.</h2>
+                <h2><a href="https://www.kuangstudy.com/" class="link"
+                        target="_blank">KuangStudy</a>:有一套免费且完整的Java全栈开发视频,也有一些其他内容的付费视频.</h2>
+                <h2><a href="https://www.icourse163.org/" class="link" target="_blank">中国大学MOOC</a>:好的大学,没有围墙!</h2>
+                <h2><a href="https://www.acwing.com/" class="link"
+                        target="_blank">ACWing</a>:一套相对物美价廉的竞赛算法从入门到精通课程,但是上面的开发教程过于浅层.</h2>
+                <h2>牛客竞赛<a href="https://ac.nowcoder.com/discuss/817596" class="link" target="_blank">入门题单</a>、<a
+                        href="https://ac.nowcoder.com/discuss/926597" class="link" target="_blank">精选题单</a>、<a
+                        href="https://ac.nowcoder.com/discuss/828697" class="link"
+                        target="_blank">进阶题单</a>:完整且高质量的竞赛算法题单,长期坚持刷必有收获.</h2>
+            </div>
+        </section>
+    </article>
+
+    <!-- 切换按钮,显示在最上面 -->
+    <div id="controlButton" style="display:none">
+        <img data-toggle="tooltip" title="点我切换页面!" onclick="controlFrame();" src="./img/icon.png">
+    </div>
+
+    <!-- 控制页面,显示在最上面 -->
+    <div id="controlFrame" class="d-flex justify-content-center align-items-center" style="display:none !important">
+        <div id="buttons">
+            <button onclick="change('introduction')" class="btn btn-primary d-block">个人介绍</button>
+            <button onclick="change('awards')" class="btn btn-success d-block">个人奖项</button>
+            <button onclick="change('servers')" class="btn btn-info d-block">个人项目</button>
+            <button onclick="change('others')" class="btn btn-warning d-block">其他主页</button>
+            <button onclick="change('learningMaterials')" class="btn btn-danger d-block">自学站点</button>
+        </div>
+    </div>
+
+    <!-- 悬挂备案 -->
+    <div id="record">
+        <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2023018825号</a>
+    </div>
+
+    <!-- 提示框 -->
+    <div class="alert alert-warning d-flex justify-content-between" style="display: none !important;" role="alert">
+        <span class="d-block" style="font-size: 1.5vmax;">部分手机浏览器效果较差.点击左上方的logo可切换页面!</span>
+        <button type="button" class="btn-close d-block " data-bs-dismiss="alert" aria-label="close"></button>
+    </div>
+
+    <noscript>
+        <p class="text-warning" style="z-index: 9999">
+            你可能正在使用<strong>原始人浏览器</strong>,本页面需要浏览器支持(启用)JavaScript.请检查浏览器的配置或使用<strong><a
+                    href="https://www.microsoft.com/zh-cn/edge">现代浏览器</a></strong>.</p>
+    </noscript>
+    <!-- 拦截IE浏览器 -->
+    <script src="js/noIE.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+
+    <!-- 图片旋转插件 -->
+    <script src="js/jQueryRotate3.js"></script>
+    <!-- 页面初始化 -->
+    <script src="js/start.js"></script>
+    <!-- 页面控制器 -->
+    <script src="js/control.js"></script>
+</body>
+
+</html>
